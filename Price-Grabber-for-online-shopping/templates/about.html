@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='aboutstyle.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+<body>
+    <nav>
+        <i class="fas fa-wallet" id="coin"></i>
+        <label  class="logo">PricePool</label>
+            <ul>
+                <li><a href="{{url_for('product')}}">Home</a></li>
+                <li><a href="{{url_for('about')}}">About</a></li>
+                <li><a href="{{url_for('contact')}}">Contact Us</a></li>
+                <li><a href="{{url_for('feedback')}}">Feedback</a></li>
+            </ul>
+    </nav>
+    <div class="menu-div">
+        <div class="home"><a href="{{url_for('product')}}">Home</a></div>
+        <div class="about"><a href="{{url_for('about')}}">About</a></div>
+        <div class="contact"><a href="{{url_for('contact')}}">Contact Us</a></div>
+        <div class="feedback"><a href="{{url_for('feedback')}}">Feedback</a></div>
+    </div>
+    <div class="red"></div>
+    <div class="cont">
+        <div class="tit">
+            <h1>About</h1>
+        </div>
+        <div class="matter">
+            <p>This price comparison website is a platform that allows users to compare prices for products or services from various e-commerce websites. Users can input the product they're looking for, and the website displays a list of options with prices and other relevant information, making it easier for consumers to find the best deal. These websites can cover a wide range of products, from electronics and clothing to insurance and travel services. They help consumers save time and money by presenting price ,rating and also link to product.</p>
+        </div>
+    </div>
+</body>
+</html>
